@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Cà phê sữa",
+        "slug": "ca-phe-sua",
+        "id": 1,
+        "img": "https://product.hstatic.net/1000075078/product/cfsd_615a3cb2b1e342d2b1986bfeb6572070_master.jpg",
+        "description": {
+            "title": "SỰ MỘC MẠC TRỞ THÀNH DẤU ẤN VIỆT",
+            "description": "Khi người Pháp đem văn hóa cà phê vào Việt Nam, người bản xứ thay thế sữa tươi đắt đỏ bằng sữa đặc rẻ tiền hơn để pha cùng cà phê. Tuy nhiên việc làm này vô tình khiến kết cấu của ly cà phê sánh đặc và đậm đà hơn. Dần dà, ly cà phê sữa đặc đậm vị quen thuộc với nếp sống người Việt trở thành một nét sáng tạo riêng, chinh phục được trái tim hàng triệu người yêu cà phê trên thế giới. Chằng có cách nào mô tả chính xác được mùi vị của Cà phê sữa Việt Nam hơn việc tự mình nhấm nháp."
+        },
+        "price": 35000
+    },
+    {
+        "name": "Cà phê đen",
+        "slug": "ca-phe-den",
+        "id": 2,
+        "img": "https://product.hstatic.net/1000075078/product/cf_da_copy_a33d6e77f8da405bba9da541744dcea9_master.jpg",
+        "description": {
+            "title": "SỰ MỘC MẠC TRỞ THÀNH DẤU ẤN VIỆT",
+            "description": "Khi người Pháp đem văn hóa cà phê vào Việt Nam, người bản xứ thay thế sữa tươi đắt đỏ bằng sữa đặc rẻ tiền hơn để pha cùng cà phê. Tuy nhiên việc làm này vô tình khiến kết cấu của ly cà phê sánh đặc và đậm đà hơn. Dần dà, ly cà phê sữa đặc đậm vị quen thuộc với nếp sống người Việt trở thành một nét sáng tạo riêng, chinh phục được trái tim hàng triệu người yêu cà phê trên thế giới. Chằng có cách nào mô tả chính xác được mùi vị của Cà phê sữa Việt Nam hơn việc tự mình nhấm nháp."
+        },
+        "price": 35000
+    },
+    {
+        "name": "Latte",
+        "slug": "lat-te",
+        "id": 3,
+        "img": "https://product.hstatic.net/1000075078/product/latte_dd6427d058294df5aa4745e5a6035a93_large.jpg",
+        "description": {
+            "title": "SỰ MỘC MẠC TRỞ THÀNH DẤU ẤN VIỆT",
+            "description": "Khi người Pháp đem văn hóa cà phê vào Việt Nam, người bản xứ thay thế sữa tươi đắt đỏ bằng sữa đặc rẻ tiền hơn để pha cùng cà phê. Tuy nhiên việc làm này vô tình khiến kết cấu của ly cà phê sánh đặc và đậm đà hơn. Dần dà, ly cà phê sữa đặc đậm vị quen thuộc với nếp sống người Việt trở thành một nét sáng tạo riêng, chinh phục được trái tim hàng triệu người yêu cà phê trên thế giới. Chằng có cách nào mô tả chính xác được mùi vị của Cà phê sữa Việt Nam hơn việc tự mình nhấm nháp."
+        },
+        "price": 35000
+    },
+    {
+        "name": "Caramel",
+        "slug": "ca-ra-mel",
+        "id": 4,
+        "img": "https://product.hstatic.net/1000075078/product/caramel_macchiato_24ff98b746e84b7aba702c01a60b1a52_large.jpg",
+        "description": {
+            "title": "SỰ MỘC MẠC TRỞ THÀNH DẤU ẤN VIỆT",
+            "description": "Khi người Pháp đem văn hóa cà phê vào Việt Nam, người bản xứ thay thế sữa tươi đắt đỏ bằng sữa đặc rẻ tiền hơn để pha cùng cà phê. Tuy nhiên việc làm này vô tình khiến kết cấu của ly cà phê sánh đặc và đậm đà hơn. Dần dà, ly cà phê sữa đặc đậm vị quen thuộc với nếp sống người Việt trở thành một nét sáng tạo riêng, chinh phục được trái tim hàng triệu người yêu cà phê trên thế giới. Chằng có cách nào mô tả chính xác được mùi vị của Cà phê sữa Việt Nam hơn việc tự mình nhấm nháp."
+        },
+        "price": 35000
+    },
+    {
+        "name": "Mocha",
+        "slug": "mo-cha",
+        "id": 5,
+        "img": "https://product.hstatic.net/1000075078/product/mocha_da_a2913936f9d84d07b63ac1ddf5dd2d0f_large.jpg",
+        "description": {
+            "title": "SỰ MỘC MẠC TRỞ THÀNH DẤU ẤN VIỆT",
+            "description": "Khi người Pháp đem văn hóa cà phê vào Việt Nam, người bản xứ thay thế sữa tươi đắt đỏ bằng sữa đặc rẻ tiền hơn để pha cùng cà phê. Tuy nhiên việc làm này vô tình khiến kết cấu của ly cà phê sánh đặc và đậm đà hơn. Dần dà, ly cà phê sữa đặc đậm vị quen thuộc với nếp sống người Việt trở thành một nét sáng tạo riêng, chinh phục được trái tim hàng triệu người yêu cà phê trên thế giới. Chằng có cách nào mô tả chính xác được mùi vị của Cà phê sữa Việt Nam hơn việc tự mình nhấm nháp."
+        },
+        "price": 35000
+    }
+]

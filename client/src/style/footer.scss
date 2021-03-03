@@ -1,0 +1,132 @@
+$main_color:#00BFFF;
+
+#wrap_footer_all{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #DCDCDC;
+    clear: both;
+    .footer_items{
+        width: 20%;
+        #get_discount_email{
+            text-align: left;
+            span{
+                font-weight: bold;
+                font-size: 14px;
+            }
+            form{
+                display: flex;
+                padding: 10px 0px;
+                input{
+                    padding: 15px;
+                    width: 55%;
+                    border-radius: 5px 0 0 5px;
+                    border: none;
+                }
+                input:focus{
+                    outline: none; 
+                }
+                button{
+                    width: 30%;
+                    border: none;
+                    background-color: white;
+                    cursor: pointer;
+                    border-radius: 0 5px 5px 0;
+                    color: #1E90FF;
+                }
+                button:hover{
+                    color: #0000FF;
+                }
+                button:focus{
+                    outline: none;
+                }
+            }
+        }
+        #follow{
+            text-align: left;
+            #connect_with_us{
+                padding: 0 0 10px 0;
+                span{
+                    font-size: 14px;
+                }
+                .follow_items{
+                    padding-top: 10px;
+                }
+            }
+            #install_app{
+                padding: 0 0 10px 0;
+                span{
+                    font-size: 14px;
+                }
+                .follow_items{
+                    padding-top: 10px;
+                    a{
+                        img{
+                            width: 40%;
+                            padding: 0 5px;
+                        }
+                    }
+                }
+            }
+        }
+        #payment_methods{
+            text-align: center;
+            span{
+                font-size: 14px;
+            }
+            #payment_method_items{
+                padding: 10px 0;
+                img{
+                    padding: 3px;
+                }
+            }
+        }
+        #more_infor{
+            span{
+                font-size: 14px;
+            }
+            #infor_items{
+                margin-top: 10px;
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+                    margin: 0;
+                    li{
+                        list-style-type: none;
+                        padding: 5px 0;
+                        a{
+                            text-decoration: none;
+                            color: 	#4169E1;
+                        }
+                        a:hover{
+                            text-decoration: underline;
+                            color: 	#00008B;
+                        }
+                    }
+                }
+            }
+        }
+        #about{
+            text-align: left;
+            span{
+                font-size: 14px;
+            }
+            p{
+                font-size: 14px;
+                margin: 10px 0;
+            }
+            #certificate{
+                display: flex;
+                align-items: center;
+                img{
+                    width: 50%;
+                }
+            }
+        }
+    }
+    #copyright{
+        width: 100%;
+        text-align: center;
+    }
+}

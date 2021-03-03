@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Big Star Burger",
+        "slug": "big-star-burger",
+        "id": "h1",
+        "img": "https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/b/u/burger_bigstar_4.png",
+        "description": {
+            "title": "",
+            "description": ""
+        },
+        "price": 35000
+    },
+    {
+        "name": "Burger Bò Trứng",
+        "slug": "burger-bo-trung",
+        "id": "h2",
+        "img": "https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/b/u/burger_b_tr_ng.jpg",
+        "description": {
+            "title": "",
+            "description": ""
+        },
+        "price": 35000
+    },
+    {
+        "name": "Burger Phô Mai",
+        "slug": "burger-pho-mai",
+        "id": "h3",
+        "img": "https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/b/u/burger_cheese_10.png",
+        "description": {
+            "title": "",
+            "description": ""
+        },
+        "price": 35000
+    },
+    {
+        "name": "Bulgogi Burger",
+        "slug": "bulgogi-burger",
+        "id": "h4",
+        "img": "https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/b/u/burger_bulgogi_4.png",
+        "description": {
+            "title": "",
+            "description": ""
+        },
+        "price": 35000
+    },
+    {
+        "name": "Burger Tôm",
+        "slug": "burger-tom",
+        "id": "h5",
+        "img": "https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/b/u/burger_shrimp_4.png",
+        "description": {
+            "title": "",
+            "description": ""
+        },
+        "price": 35000
+    }
+]

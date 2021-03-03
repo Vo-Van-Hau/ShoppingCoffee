@@ -1,0 +1,394 @@
+.admin .wrap-action {
+  width: 100%;
+  display: flex;
+}
+
+.admin .wrap-action .action-menu {
+  width: 15%;
+}
+
+.admin .wrap-action .action-menu .navigation-menu .brand {
+  background-color: #00FFFF;
+  text-align: center;
+  padding: 10px 5px;
+  font-size: 20px;
+}
+
+.admin .wrap-action .action-menu .navigation-menu .brand sup {
+  background-color: white;
+  font-size: 8px;
+  margin: 3px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 2px;
+  width: 10px;
+  height: 10px;
+  font-weight: bold;
+}
+
+.admin .wrap-action .action-menu .navigation-menu ul {
+  list-style-type: none;
+  background-color: #00CED1;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.admin .wrap-action .action-menu .navigation-menu ul li {
+  padding: 3px;
+  border-bottom: 1px solid black;
+}
+
+.admin .wrap-action .action-menu .navigation-menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.admin .wrap-action .action-menu .navigation-menu ul li a i {
+  margin: 10px;
+}
+
+.admin .wrap-action .action-menu .navigation-menu ul li:hover {
+  cursor: pointer;
+  background-color: #0cbcbf;
+}
+
+.admin .wrap-action .action-process {
+  width: 85%;
+}
+
+.admin .wrap-action .action-process .menu-item {
+  width: 100%;
+}
+
+.admin .wrap-action .action-process .menu-item .navigation-menu-item-func {
+  width: 100%;
+}
+
+.admin .wrap-action .action-process .menu-item .navigation-menu-item-func p {
+  display: flex;
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 20px;
+  background-color: grey;
+  color: white;
+}
+
+.admin .wrap-action .action-process .menu-item .navigation-menu-item-func p i {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.admin .wrap-action .action-process .menu-item .navigation-menu-item-func ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.admin .wrap-action .action-process .menu-item .navigation-menu-item-func ul li button {
+  border: none;
+  border-right: 1px solid #A9A9A9;
+  padding: 10px;
+  font-size: 12px;
+  background-color: #dddddd;
+  color: #483D8B;
+  font-weight: bold;
+}
+
+.admin .wrap-action .action-process .menu-item .navigation-menu-item-func ul li button i {
+  margin-right: 3px;
+}
+
+.admin .wrap-action .action-process .menu-item .navigation-menu-item-func ul li button:hover {
+  cursor: pointer;
+  background-color: #F5F5F5;
+}
+
+.admin .wrap-action .action-process .menu-item .navigation-menu-item-func ul li button:focus {
+  outline: none;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process {
+  padding: 10px;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process {
+  margin: 10px;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .add-product-process {
+  display: none;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .add-product-process form .wrap-item-form {
+  margin: 10px 5px;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .add-product-process form .wrap-item-form label {
+  font-size: 10px;
+  color: red;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .add-product-process form .wrap-item-form input {
+  padding: 8px 10px;
+  display: block;
+  width: 50%;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .add-product-process form .wrap-item-form input:focus {
+  outline: none;
+  border: 1px solid #00ABFF;
+  box-shadow: 0px 0px 5px #00ABFF;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .add-product-process form .wrap-item-form select {
+  padding: 5px;
+  display: block;
+  width: 15%;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .add-product-process form .wrap-item-form select:focus {
+  outline: none;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .add-product-process form .wrap-item-form button {
+  background-color: #FFD700;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  opacity: 0.8;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .add-product-process form .wrap-item-form button:hover {
+  background-color: #e9c80c;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .add-product-process form .wrap-item-form button:focus {
+  outline: none;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process {
+  display: none;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .brand p {
+  text-align: center;
+  margin: 10px;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .wrap-item-form-search form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .wrap-item-form-search form input {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #DCDCDC;
+  font-size: 16px;
+  border-radius: 20px 0px 0px 20px;
+  border-right: none;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .wrap-item-form-search form input:hover {
+  border: 1px solid #00ABFF;
+  box-shadow: 0px 0px 5px #00ABFF;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .wrap-item-form-search form input:focus {
+  outline: none;
+  border: 1px solid #00ABFF;
+  box-shadow: 0px 0px 5px #00ABFF;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .wrap-item-form-search form button {
+  width: 3%;
+  cursor: pointer;
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+  border: 1px solid #DCDCDC;
+  border-left: none;
+  background-color: white;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .wrap-item-form-search form button:hover {
+  color: #00ABFF;
+  outline: none;
+  border: 1px solid #00ABFF;
+  box-shadow: 0px 0px 5px #00ABFF;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .wrap-item-form-search form button:focus {
+  outline: none;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .update-product-process-list form .wrap-item-form {
+  margin: 10px 5px;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .update-product-process-list form .wrap-item-form label {
+  font-size: 10px;
+  color: red;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .update-product-process-list form .wrap-item-form input {
+  padding: 8px 10px;
+  display: block;
+  width: 50%;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .update-product-process-list form .wrap-item-form input:focus {
+  outline: none;
+  border: 1px solid #00ABFF;
+  box-shadow: 0px 0px 5px #00ABFF;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .update-product-process-list form .wrap-item-form select {
+  padding: 5px;
+  display: block;
+  width: 15%;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .update-product-process-list form .wrap-item-form select:focus {
+  outline: none;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .update-product-process-list form .wrap-item-form button {
+  background-color: #FFD700;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  opacity: 0.8;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .update-product-process-list form .wrap-item-form button:hover {
+  background-color: #e9c80c;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .update-product-process .update-product-process-list form .wrap-item-form button:focus {
+  outline: none;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process {
+  display: none;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .brand p {
+  text-align: center;
+  margin: 10px;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .wrap-item-form-search form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .wrap-item-form-search form input {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #DCDCDC;
+  font-size: 16px;
+  border-radius: 20px 0px 0px 20px;
+  border-right: none;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .wrap-item-form-search form input:hover {
+  border: 1px solid #00ABFF;
+  box-shadow: 0px 0px 5px #00ABFF;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .wrap-item-form-search form input:focus {
+  outline: none;
+  border: 1px solid #00ABFF;
+  box-shadow: 0px 0px 5px #00ABFF;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .wrap-item-form-search form button {
+  width: 3%;
+  cursor: pointer;
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+  border: 1px solid #DCDCDC;
+  border-left: none;
+  background-color: white;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .wrap-item-form-search form button:hover {
+  color: #00ABFF;
+  outline: none;
+  border: 1px solid #00ABFF;
+  box-shadow: 0px 0px 5px #00ABFF;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .wrap-item-form-search form button:focus {
+  outline: none;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .delete-product-process-list form .wrap-item-form {
+  margin: 10px 5px;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .delete-product-process-list form .wrap-item-form label {
+  font-size: 10px;
+  color: red;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .delete-product-process-list form .wrap-item-form input {
+  padding: 8px 10px;
+  display: block;
+  width: 50%;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .delete-product-process-list form .wrap-item-form input:focus {
+  outline: none;
+  border: 1px solid #00ABFF;
+  box-shadow: 0px 0px 5px #00ABFF;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .delete-product-process-list form .wrap-item-form select {
+  padding: 5px;
+  display: block;
+  width: 15%;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .delete-product-process-list form .wrap-item-form select:focus {
+  outline: none;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .delete-product-process-list form .wrap-item-form button {
+  background-color: #FFD700;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  opacity: 0.8;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .delete-product-process-list form .wrap-item-form button:hover {
+  background-color: #e9c80c;
+}
+
+.admin .wrap-action .action-process .menu-item .item-process .product-process .delete-product-process .delete-product-process-list form .wrap-item-form button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=admin.css.map */

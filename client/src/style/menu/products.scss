@@ -1,0 +1,143 @@
+.wrap_menu{
+    .main_items_product{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        .options_items{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            background-color: #FFD700;
+            padding: 15px;
+            span{
+                font-size: 18px;
+            }
+            ul{
+                margin: 0 10px;
+                li{
+                    list-style-type: none;
+                    padding: 0 5px;
+                    float: left;
+                    a{
+                        text-decoration: none;
+                        color: #696969;
+                    }
+                    a:hover{
+                        color: 	#000000;
+                    }
+                }
+            }
+        }
+        .main_list_items{
+            padding: 10px 0;
+            position: relative;
+            .btn-more{
+                width: 50px;
+                height: 50px;
+                border: none;
+                background-color: #DCDCDC;
+                color: #696969;
+                cursor: pointer;
+                position: absolute;
+                z-index: 1;
+                border-radius: 50%;
+                &.btn-previous{
+                    left: 0;
+                }
+                &.btn-later{
+                    right: 0;
+                }
+                &:hover{
+                    background-color: #C0C0C0;
+                }
+                &:focus{
+                    outline: none;
+                }
+            }
+            ul{
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                li{
+                    width: 200px;
+                    height: 350px;
+                    list-style-type: none;
+                    padding: 5px 10px;
+                    margin: 5px;
+                    border: 1px solid #DCDCDC;
+                    border-radius: 10px;
+                    background-color: white;
+                    a{
+                        padding: 5px 0;
+                        text-decoration: none;
+                        .heightlabel{
+                            background-color: #FFD700;
+                            width: 60%;
+                            font-size: 12px;
+                            margin: 10px 0;
+                            padding: 5px 2px;
+                            border-radius: 3px;
+                            label{
+                                padding: 0 5px;
+                                color: black;
+                            }
+                            b{
+                                color: black; 
+                            }
+                        }
+                        img{
+                            width: 180px;
+                            height: 180px;
+                        }
+                        aside{
+                            display: flex;
+                            align-items: center;
+                            background-color: red;
+                            border-radius: 10px;
+                            width: 50%;
+                            margin: 10px 0;
+                            img{
+                                width: 20px;
+                                height: 20px;
+                            }
+                            span{
+                                color: white;
+                                font-size: 16px;
+                            }
+                        }
+                        h3{
+                            font-size: 16px;
+                            font-weight: normal;
+                            text-align: left;
+                            color: black;
+                            margin: 5px 0;
+                        }
+                        .price{
+                            display: flex;
+                            align-items: center;
+                            strong{
+                                color: red;
+                            }
+                            span{
+                                text-decoration: line-through;
+                                padding: 0 5px;
+                                font-size: 12px;
+                                color: black;
+                                opacity: 0.7;
+                            }
+                            i{
+                                color: red;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                li:hover{
+                    box-shadow: 0 0 20px #C0C0C0;
+                }
+            }
+        }
+    }
+}

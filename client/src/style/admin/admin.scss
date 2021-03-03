@@ -1,0 +1,359 @@
+.admin{
+    .wrap-action{
+        width: 100%;
+        display: flex;
+        .action-menu{
+            width: 15%;
+            .navigation-menu{
+                .brand{
+                    background-color: #00FFFF;
+                    text-align: center;
+                    padding: 10px 5px;
+                    font-size: 20px;
+                    sup{
+                        background-color: white;
+                        font-size: 8px;
+                        margin: 3px;
+                        border: 2px solid black;
+                        border-radius: 50%;
+                        padding: 2px;
+                        width: 10px;
+                        height: 10px;
+                        font-weight: bold;
+                    }
+                }
+                ul{
+                    list-style-type: none;
+                    background-color: #00CED1;
+                    overflow-y: scroll;
+                    height: 100vh;
+                    li{
+                        padding: 3px;
+                        border-bottom: 1px solid black;
+                        a{
+                            text-decoration: none;
+                            color: black;
+                            font-size: 14px;
+                            i{
+                                margin: 10px;
+                            }
+                        }
+                    }
+                    li:hover{
+                        cursor: pointer;
+                        background-color: #0cbcbf;
+                    }
+                }
+            }
+        }
+        .action-process{
+            width: 85%;
+            .menu-item{
+                width: 100%;
+                .navigation-menu-item-func{
+                    width: 100%;
+                    p{
+                        display: flex;
+                        text-align: center;
+                        padding: 10px 15px;
+                        font-size: 20px;
+                        background-color: grey;
+                        color: white;
+                        i{
+                            margin-left: 5px;
+                            font-size: 20px;
+                        }
+                    }
+                    ul{
+                        list-style-type: none;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        li{
+                            button{
+                                border: none;
+                                border-right : 1px solid #A9A9A9;
+                                padding: 10px;
+                                font-size: 12px;
+                                background-color: #dddddd;
+                                color: #483D8B;
+                                font-weight: bold;
+                                i{
+                                    margin-right: 3px;
+                                }
+                            }
+                            button:hover{
+                                cursor: pointer;
+                                background-color: #F5F5F5;
+                            }
+                            button:focus{
+                                outline: none;
+                            }
+                        }
+                    }
+                }
+                .item-process{
+                    padding: 10px;
+                    .product-process{
+                        margin: 10px;
+                        .add-product-process{
+                            display: none;
+                            form{
+                                .wrap-item-form{
+                                    margin: 10px 5px;
+                                    label{
+                                        font-size: 10px;
+                                        color: red;
+
+                                    }
+                                    input{
+                                        padding: 8px 10px;
+                                        display: block;
+                                        width: 50%;
+                                    }
+                                    input:focus{
+                                        outline: none;  
+                                        border: 1px solid #00ABFF;
+                                        box-shadow: 0px 0px 5px #00ABFF;
+                                    }
+                                    select{
+                                        padding: 5px;
+                                        display: block;
+                                        width: 15%;
+                                    }
+                                    select:focus{
+                                        outline: none;
+                                    }
+                                    button{
+                                        background-color: #FFD700;
+                                        color: black;
+                                        padding: 10px;
+                                        cursor: pointer;
+                                        font-size: 14px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        border-radius: 5px;
+                                        border: none;
+                                        opacity: 0.8;
+                                    }
+                                    button:hover{
+                                        background-color: #e9c80c;
+                                    }
+                                    button:focus{
+                                        outline: none;
+                                    }
+                                }
+                            }
+                        }
+    
+                        .update-product-process{
+                            display: none;
+                            .brand{
+                                p{
+                                    text-align: center;
+                                    margin: 10px;
+                                }
+                            }
+                            .wrap-item-form-search{
+                                form{
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    input{
+                                        width: 40%;
+                                        padding: 10px;
+                                        border: 1px solid #DCDCDC;
+                                        font-size: 16px;
+                                        border-radius: 20px 0px 0px 20px;
+                                        border-right: none;
+                                    }
+                                    input:hover{
+                                        border: 1px solid #00ABFF;
+                                        box-shadow: 0px 0px 5px #00ABFF;
+                                    }
+                                    input:focus{
+                                        outline: none;
+                                        border: 1px solid #00ABFF;
+                                        box-shadow: 0px 0px 5px #00ABFF;
+                                    }
+                                    button{
+                                        width: 3%;
+                                        cursor: pointer;
+                                        border: none;
+                                        border-radius: 0px 20px 20px 0px;
+                                        border: 1px solid #DCDCDC;
+                                        border-left: none;
+                                        background-color: white;
+                                    }
+                                    button:hover{
+                                        color: #00ABFF;
+                                        outline: none;
+                                        border: 1px solid #00ABFF;
+                                        box-shadow: 0px 0px 5px #00ABFF;
+                                    }
+                                    button:focus{
+                                        outline: none;
+                                    }
+                                }
+                            }
+                            
+                            .update-product-process-list{
+                                form{
+                                    .wrap-item-form{
+                                        margin: 10px 5px;
+                                        label{
+                                            font-size: 10px;
+                                            color: red;
+    
+                                        }
+                                        input{
+                                            padding: 8px 10px;
+                                            display: block;
+                                            width: 50%;
+                                        }
+                                        input:focus{
+                                            outline: none;  
+                                            border: 1px solid #00ABFF;
+                                            box-shadow: 0px 0px 5px #00ABFF;
+                                        }
+                                        select{
+                                            padding: 5px;
+                                            display: block;
+                                            width: 15%;
+                                        }
+                                        select:focus{
+                                            outline: none;
+                                        }
+                                        button{
+                                            background-color: #FFD700;
+                                            color: black;
+                                            padding: 10px;
+                                            cursor: pointer;
+                                            font-size: 14px;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            border-radius: 5px;
+                                            border: none;
+                                            opacity: 0.8;
+                                        }
+                                        button:hover{
+                                            background-color: #e9c80c;
+                                        }
+                                        button:focus{
+                                            outline: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .delete-product-process{
+                            display: none;
+                            
+                            .brand{
+                                p{
+                                    text-align: center;
+                                    margin: 10px;
+                                }
+                            }
+                            .wrap-item-form-search{
+                                form{
+                                    display: flex;
+                                    justify-content: center;
+                                    width: 100%;
+                                    input{
+                                        width: 40%;
+                                        padding: 10px;
+                                        border: 1px solid #DCDCDC;
+                                        font-size: 16px;
+                                        border-radius: 20px 0px 0px 20px;
+                                        border-right: none;
+                                    }
+                                    input:hover{
+                                        border: 1px solid #00ABFF;
+                                        box-shadow: 0px 0px 5px #00ABFF;
+                                    }
+                                    input:focus{
+                                        outline: none;
+                                        border: 1px solid #00ABFF;
+                                        box-shadow: 0px 0px 5px #00ABFF;
+                                    }
+                                    button{
+                                        width: 3%;
+                                        cursor: pointer;
+                                        border: none;
+                                        border-radius: 0px 20px 20px 0px;
+                                        border: 1px solid #DCDCDC;
+                                        border-left: none;
+                                        background-color: white;
+                                    }
+                                    button:hover{
+                                        color: #00ABFF;
+                                        outline: none;
+                                        border: 1px solid #00ABFF;
+                                        box-shadow: 0px 0px 5px #00ABFF;
+                                    }
+                                    button:focus{
+                                        outline: none;
+                                    }
+                                }
+                            }
+                            
+                            .delete-product-process-list{
+                                form{
+                                    .wrap-item-form{
+                                        margin: 10px 5px;
+                                        label{
+                                            font-size: 10px;
+                                            color: red;
+    
+                                        }
+                                        input{
+                                            padding: 8px 10px;
+                                            display: block;
+                                            width: 50%;
+                                        }
+                                        input:focus{
+                                            outline: none;  
+                                            border: 1px solid #00ABFF;
+                                            box-shadow: 0px 0px 5px #00ABFF;
+                                        }
+                                        select{
+                                            padding: 5px;
+                                            display: block;
+                                            width: 15%;
+                                        }
+                                        select:focus{
+                                            outline: none;
+                                        }
+                                        button{
+                                            background-color: #FFD700;
+                                            color: black;
+                                            padding: 10px;
+                                            cursor: pointer;
+                                            font-size: 14px;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            border-radius: 5px;
+                                            border: none;
+                                            opacity: 0.8;
+                                        }
+                                        button:hover{
+                                            background-color: #e9c80c;
+                                        }
+                                        button:focus{
+                                            outline: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

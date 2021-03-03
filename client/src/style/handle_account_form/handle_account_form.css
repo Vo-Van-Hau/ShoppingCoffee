@@ -1,0 +1,367 @@
+.wrap-modal {
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 75px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.wrap-modal .wrap-modal-item {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation: animatetop 0.4;
+}
+
+.wrap-modal .wrap-modal-item .modal-header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wrap-modal .wrap-modal-item .modal-header a {
+  color: #00BFFF;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+  text-decoration: none;
+}
+
+.wrap-modal .wrap-modal-item .modal-header a:hover {
+  color: #00ABFF;
+}
+
+.wrap-modal .wrap-modal-item .modal-header #btn-trans-login {
+  border-bottom: 2px solid #00BFFF;
+}
+
+.wrap-modal .wrap-modal-item .modal-header #btn-trans-login-none {
+  border-bottom: none;
+}
+
+.wrap-modal .wrap-modal-item .modal-header #btn-trans-new-ac {
+  border-bottom: 2px solid #00BFFF;
+}
+
+.wrap-modal .wrap-modal-item .modal-header #btn-trans-new-ac-none {
+  border-bottom: none;
+}
+
+.wrap-modal .wrap-modal-item .modal-header .wrap-btn-close {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.wrap-modal .wrap-modal-item .modal-header .wrap-btn-close a {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid #D3D3D3;
+  border-radius: 50%;
+  color: red;
+}
+
+.wrap-modal .wrap-modal-item .modal-header .wrap-btn-close a:hover {
+  color: #DC143C;
+}
+
+.wrap-modal .wrap-modal-item .modal-header .wrap-btn-close a:focus {
+  outline: none;
+}
+
+.wrap-modal .wrap-modal-item .modal-body {
+  margin: 10px 0;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .login-email {
+  margin: 30px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .login-email label {
+  font-size: 14px;
+  color: gray;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .login-email input {
+  position: absolute;
+  right: 10px;
+  width: 70%;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .login-password {
+  margin: 30px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .login-password label {
+  font-size: 14px;
+  color: gray;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .login-password input {
+  position: absolute;
+  right: 10px;
+  width: 70%;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .input-login {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #D3D3D3;
+  font-size: 14px;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .input-login:focus {
+  outline: none;
+  border: 1px solid #00ABFF;
+  box-shadow: 0px 0px 5px #00ABFF;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .forgot-password {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .forgot-password a {
+  color: #00ABFF;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .btn-handle-form {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .btn-handle-form button {
+  padding: 10px;
+  width: 50%;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  opacity: 0.8;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .btn-handle-form button i {
+  margin-right: 5px;
+  font-size: 24px;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .btn-handle-form button:hover {
+  opacity: 1;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .btn-handle-form button:focus {
+  outline: none;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .submit-form button {
+  background-color: #FFD700;
+  color: black;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .submit-form button:hover {
+  background-color: #e9c80c;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .login-with-facebook button {
+  background-color: #00008B;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .login-with-facebook button:hover {
+  background-color: #0202ac;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .login-with-google button {
+  background-color: #DC143C;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .login-modal form .login-with-google button:hover {
+  background-color: #f70838;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .wrap-items-input-register {
+  margin: 30px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .wrap-items-input-register label {
+  font-size: 14px;
+  color: gray;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .wrap-items-input-register input {
+  position: absolute;
+  right: 10px;
+  width: 70%;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .gender {
+  display: flex;
+  position: relative;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .gender .gender-items {
+  width: 70%;
+  position: absolute;
+  right: 10px;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .gender .gender-items label {
+  margin-right: 20px;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .gender .gender-items input {
+  position: static;
+  width: 20px;
+  height: 15px;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .birthday {
+  display: flex;
+  position: relative;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .birthday .birthday-items {
+  width: 70%;
+  position: absolute;
+  right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .birthday .birthday-items select {
+  margin-right: 10px;
+  width: 30%;
+  padding: 8px;
+  border: 1px solid #C0C0C0;
+  border-radius: 5px;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .birthday .birthday-items select:hover {
+  border: 1px solid #808080;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .birthday .birthday-items select:focus {
+  outline: none;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .get-discount {
+  display: flex;
+  align-items: center;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .get-discount input {
+  width: 15px;
+  height: 15px;
+  position: static;
+  margin-right: 10px;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .get-discount label {
+  font-size: 14px;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .create-account {
+  display: flex;
+  justify-content: center;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .create-account button {
+  background-color: #FFD700;
+  color: black;
+  padding: 10px;
+  width: 50%;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  opacity: 0.8;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .create-account button:hover {
+  background-color: #e9c80c;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .create-account button:focus {
+  outline: none;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .policy-service p {
+  font-size: 14px;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .policy-service p a {
+  color: #00BFFF;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .policy-service p a:hover {
+  color: #00ABFF;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .input-register {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #D3D3D3;
+  font-size: 14px;
+}
+
+.wrap-modal .wrap-modal-item .modal-body .register-modal form .input-register:focus {
+  outline: none;
+  border: 1px solid #00ABFF;
+  box-shadow: 0px 0px 5px #00ABFF;
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=handle_account_form.css.map */

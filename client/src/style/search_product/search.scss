@@ -1,0 +1,137 @@
+// Have results
+.wrap_all_search_product{
+    .wrap_search_result{
+        padding: 10px;
+        .alert_search_result{
+            margin: 10px;
+            padding: 10px;
+            p{
+                font-size: 14px;
+                color: #808080;
+            }
+        }
+        ul{
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            li{
+                width: 200px;
+                height: 350px;
+                list-style-type: none;
+                padding: 5px 10px;
+                margin: 5px;
+                border: 1px solid #DCDCDC;
+                border-radius: 10px;
+                background-color: white;
+                a{
+                    padding: 5px 0;
+                    text-decoration: none;
+                    .heightlabel{
+                        background-color: #FFD700;
+                        width: 50%;
+                        font-size: 12px;
+                        margin: 10px 0;
+                        padding: 5px 2px;
+                        border-radius: 3px;
+                        label{
+                            padding: 0 5px;
+                            color: black;
+                        }
+                        b{
+                            color: black; 
+                        }
+                    }
+                    img{
+                        width: 180px;
+                        height: 180px;
+                    }
+                    aside{
+                        display: flex;
+                        align-items: center;
+                        background-color: red;
+                        border-radius: 10px;
+                        width: 50%;
+                        margin: 10px 0;
+                        img{
+                            width: 20px;
+                            height: 20px;
+                        }
+                        span{
+                            color: white;
+                            font-size: 16px;
+                        }
+                    }
+                    h3{
+                        font-size: 16px;
+                        font-weight: normal;
+                        text-align: left;
+                        color: black;
+                        margin: 5px 0;
+                    }
+                    .price{
+                        display: flex;
+                        align-items: center;
+                        strong{
+                            color: red;
+                        }
+                        span{
+                            text-decoration: line-through;
+                            padding: 0 5px;
+                            font-size: 12px;
+                            color: black;
+                            opacity: 0.7;
+                        }
+                        i{
+                            color: red;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            li:hover{
+                box-shadow: 0 0 20px #C0C0C0;
+            }
+        }
+    }
+}
+
+// No result
+.wrap_search_none_all{
+    .waring_result{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .waring_result_alert{
+            padding: 5%;
+            padding-bottom: 3%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+                color: #e9c80a;
+                text-align: center;
+                border: 1px solid #e9c80a;
+                padding: 15px;
+                width: 100%;
+            }
+        }
+        a{
+            text-decoration: none;
+            margin: 20px 0;
+            margin-bottom: 50px;
+            border: none;
+            width: 12%;
+            text-align: center;
+            padding: 15px;
+            border-radius: 5px;
+            color: white;
+            background-color: red; 
+        }
+        a:hover{
+            background-color: rgb(241, 7, 7);
+        }
+    }
+}

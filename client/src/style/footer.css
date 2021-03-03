@@ -1,0 +1,160 @@
+#wrap_footer_all {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #DCDCDC;
+  clear: both;
+}
+
+#wrap_footer_all .footer_items {
+  width: 20%;
+}
+
+#wrap_footer_all .footer_items #get_discount_email {
+  text-align: left;
+}
+
+#wrap_footer_all .footer_items #get_discount_email span {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#wrap_footer_all .footer_items #get_discount_email form {
+  display: flex;
+  padding: 10px 0px;
+}
+
+#wrap_footer_all .footer_items #get_discount_email form input {
+  padding: 15px;
+  width: 55%;
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+
+#wrap_footer_all .footer_items #get_discount_email form input:focus {
+  outline: none;
+}
+
+#wrap_footer_all .footer_items #get_discount_email form button {
+  width: 30%;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  color: #1E90FF;
+}
+
+#wrap_footer_all .footer_items #get_discount_email form button:hover {
+  color: #0000FF;
+}
+
+#wrap_footer_all .footer_items #get_discount_email form button:focus {
+  outline: none;
+}
+
+#wrap_footer_all .footer_items #follow {
+  text-align: left;
+}
+
+#wrap_footer_all .footer_items #follow #connect_with_us {
+  padding: 0 0 10px 0;
+}
+
+#wrap_footer_all .footer_items #follow #connect_with_us span {
+  font-size: 14px;
+}
+
+#wrap_footer_all .footer_items #follow #connect_with_us .follow_items {
+  padding-top: 10px;
+}
+
+#wrap_footer_all .footer_items #follow #install_app {
+  padding: 0 0 10px 0;
+}
+
+#wrap_footer_all .footer_items #follow #install_app span {
+  font-size: 14px;
+}
+
+#wrap_footer_all .footer_items #follow #install_app .follow_items {
+  padding-top: 10px;
+}
+
+#wrap_footer_all .footer_items #follow #install_app .follow_items a img {
+  width: 40%;
+  padding: 0 5px;
+}
+
+#wrap_footer_all .footer_items #payment_methods {
+  text-align: center;
+}
+
+#wrap_footer_all .footer_items #payment_methods span {
+  font-size: 14px;
+}
+
+#wrap_footer_all .footer_items #payment_methods #payment_method_items {
+  padding: 10px 0;
+}
+
+#wrap_footer_all .footer_items #payment_methods #payment_method_items img {
+  padding: 3px;
+}
+
+#wrap_footer_all .footer_items #more_infor span {
+  font-size: 14px;
+}
+
+#wrap_footer_all .footer_items #more_infor #infor_items {
+  margin-top: 10px;
+}
+
+#wrap_footer_all .footer_items #more_infor #infor_items ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0;
+}
+
+#wrap_footer_all .footer_items #more_infor #infor_items ul li {
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+#wrap_footer_all .footer_items #more_infor #infor_items ul li a {
+  text-decoration: none;
+  color: #4169E1;
+}
+
+#wrap_footer_all .footer_items #more_infor #infor_items ul li a:hover {
+  text-decoration: underline;
+  color: #00008B;
+}
+
+#wrap_footer_all .footer_items #about {
+  text-align: left;
+}
+
+#wrap_footer_all .footer_items #about span {
+  font-size: 14px;
+}
+
+#wrap_footer_all .footer_items #about p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+#wrap_footer_all .footer_items #about #certificate {
+  display: flex;
+  align-items: center;
+}
+
+#wrap_footer_all .footer_items #about #certificate img {
+  width: 50%;
+}
+
+#wrap_footer_all #copyright {
+  width: 100%;
+  text-align: center;
+}
+/*# sourceMappingURL=footer.css.map */

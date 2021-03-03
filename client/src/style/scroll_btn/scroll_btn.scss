@@ -1,0 +1,35 @@
+$main_color:#00BFFF;
+
+#wrap-scroll-btn{
+    #wrap-scroll-btn-item{
+        button{
+            padding: 12px;
+            border-radius: 50%;
+            width: 42px;
+            height: 42px;
+            position: fixed;
+            bottom: 50px;
+            right: 20px;
+            z-index: 1;  
+            cursor: pointer;
+            background-color: $main_color;
+            border: none;
+            box-shadow: 2px 2px 3px #C0C0C0;
+            animation: fadeIn 500ms ease-in-out 0s both;
+        }
+        button:focus{
+            outline: none;
+        }
+        button:hover{
+            background-color: #00ABFF;
+        }
+        @keyframes fadeIn {
+            from {
+              opacity: 0;
+            }
+            to {
+              opacity: 1;
+            }
+        }
+    }
+}
